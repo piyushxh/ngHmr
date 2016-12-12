@@ -7,3 +7,4 @@ Immutable JS, to ease development.
 Run `npm install` or, if you use Yarn, just run `yarn`.
 
 ## Running
+Run `yarn start` or `npm start`
