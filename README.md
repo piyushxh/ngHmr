@@ -12,5 +12,6 @@ therefore swapped out with the new code, we loose that data.
 Run `npm install` or, if you use Yarn, just run `yarn`.
 
 ## Running
-Run `yarn start` or `npm start`
+Run `yarn start` or `npm start`.
+Then open your browser and go to `http://localhost:8080`.
 
