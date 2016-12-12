@@ -1,6 +1,6 @@
 # NgHmr - Step 2
 
-In this branch "step2", we have a small but important modification to `main.ts`:
+In this branch, "step2", we have a small but important modification to `main.ts`:
 
 ```
 if(module['hot']) {
