@@ -1,15 +1,5 @@
 # NgHmr - Step 1
 
-This project demonstrates using Webpack's Hot Module Replacement feature with an Angular2 app, along with Redux and
-Immutable JS, to ease development.
-
-## Setup
-Run `npm install` or, if you use Yarn, just run `yarn`.
-
-## Running
-Run `yarn start` or `npm start`
-
-## Branch-specific notes
 In this branch "step1", we have a very basic Angular 2 app and a fairly simple Webpack config.
 Follow these steps:
 1. Run the app with `yarn start` or `npm start`.
@@ -31,3 +21,10 @@ Follow these steps:
 
    The `--hot` flag is what enables HMR. You can see in the console out put that _something_ related to HMR is happeneing. But we have
    to add some code in order to achieve the desired affect. Check out the branch `step2`.
+
+## Setup
+Run `npm install` or, if you use Yarn, just run `yarn`.
+
+## Running
+Run `yarn start` or `npm start`
+
