@@ -25,5 +25,5 @@ in order to load the modified modules. See the Webpack docs on HMR for details: 
 This is a great step in the right direction, but this app is still way to simple to be interesting. What we really want
 is to show how you can navigate around the app, make changes to the component you're looking at (or one of it's downstream dependencies)
 and have those changes appear without losing your place in the app or your data. We don't want to have to repeat ourselves, firing a specific
-sequence of actions on the UI every time we make a change.
+sequence of actions on the UI every time we make a change. In Step 3, we'll add routing and a purposefully sub-optimal approach to state management.
 
