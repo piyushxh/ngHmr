@@ -28,6 +28,6 @@ Run `npm install` or, if you use Yarn, just run `yarn`.
 Run `yarn start` or `npm start`
 
 ## Next: Step 3
-Stop the webpack-dev-server first, and then checkout the `step3` branch with:
+Stop the webpack-dev-server first, and then checkout the `step3` branch with
 `git checkout step3`
 
