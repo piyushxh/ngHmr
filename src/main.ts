@@ -13,3 +13,8 @@ if (document.readyState === 'complete') {
 else {
   document.addEventListener('DOMContentLoaded', main);
 }
+
+if(module['hot']) {
+  console.log("calling module.hot.accept()")
+  module['hot'].accept();
+}
