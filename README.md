@@ -25,7 +25,8 @@ sequence of actions on the UI every time we make a change. In Step 3, we'll add 
 Run `npm install` or, if you use Yarn, just run `yarn`.
 
 ## Running
-Run `yarn start` or `npm start`
+Run `yarn start` or `npm start`.
+Then open your browser and go to `http://localhost:8080`.
 
 ## Next: Step 3
 Stop the webpack-dev-server first, and then checkout the `step3` branch with
