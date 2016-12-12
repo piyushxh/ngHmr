@@ -1,13 +1,7 @@
 import './polyfills.ts';
 
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-import { enableProdMode } from '@angular/core';
-import { environment } from './environments/environment';
 import { AppModule } from './app/';
-
-if (environment.production) {
-  enableProdMode();
-}
 
 export function main() {
   return platformBrowserDynamic().bootstrapModule(AppModule);
@@ -15,7 +9,8 @@ export function main() {
 
 if (document.readyState === 'complete') {
   main();
-} else {
+}
+else {
   document.addEventListener('DOMContentLoaded', main);
 }
 
