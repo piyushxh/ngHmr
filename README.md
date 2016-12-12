@@ -1,4 +1,4 @@
-# NgHmr
+# NgHmr - Step 2
 
 This project demonstrates using Webpack's Hot Module Replacement feature with an Angular2 app, along with Redux and
 Immutable JS, to ease development.
