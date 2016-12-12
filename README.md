@@ -1,15 +1,5 @@
 # NgHmr - Step 2
 
-This project demonstrates using Webpack's Hot Module Replacement feature with an Angular2 app, along with Redux and
-Immutable JS, to ease development.
-
-## Setup
-Run `npm install` or, if you use Yarn, just run `yarn`.
-
-## Running
-Run `yarn start` or `npm start`
-
-## Branch-specific notes
 In this branch "step2", we have a small but important modification to `main.ts`:
 
 ```
@@ -26,4 +16,10 @@ This is a great step in the right direction, but this app is still way to simple
 is to show how you can navigate around the app, make changes to the component you're looking at (or one of it's downstream dependencies)
 and have those changes appear without losing your place in the app or your data. We don't want to have to repeat ourselves, firing a specific
 sequence of actions on the UI every time we make a change. In Step 3, we'll add routing and a purposefully sub-optimal approach to state management.
+
+## Setup
+Run `npm install` or, if you use Yarn, just run `yarn`.
+
+## Running
+Run `yarn start` or `npm start`
 
