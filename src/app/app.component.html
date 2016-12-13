@@ -1,3 +1,22 @@
-<h1>
-  {{title}}
-</h1>
+<nav>
+  <a [routerLink]=" ['./'] ">
+    <span>Home</span>
+  </a>
+
+  <a [routerLink]=" ['./wizard'] ">
+    <span>Wizard</span>
+  </a>
+
+  <a [routerLink]=" ['./about'] ">
+    <span>About</span>
+  </a>
+
+</nav>
+
+<main>
+  <router-outlet></router-outlet>
+</main>
+
+<footer>
+  <span>{{name}} by<a [href]="url">@sflahave</a></span>
+</footer>

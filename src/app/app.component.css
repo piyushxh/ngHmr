@@ -1,0 +1,23 @@
+nav {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+nav > a {
+    border: 1px solid darkgrey;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: papayawhip;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: steelblue;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+nav > a:hover {
+
+    background-color: peachpuff;
+}
