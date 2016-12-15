@@ -7,15 +7,13 @@ import { ROUTES } from './app.routes';
 import { AppComponent } from './app.component';
 import {RouterModule, PreloadAllModules} from "@angular/router"
 import {NoContentComponent} from "./no-content/no-content.component"
-import {AboutComponent} from "./about/about.component"
-import {WizardComponent} from "./wizard/wizard.component"
+import {CounterComponent} from "./counter/counter.component"
 import {DashboardComponent} from "./dash/dashboard.component"
 
 @NgModule({
   declarations: [
     AppComponent,
-    WizardComponent,
-    AboutComponent,
+    CounterComponent,
     DashboardComponent,
     NoContentComponent
   ],

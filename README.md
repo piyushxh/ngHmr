@@ -1,12 +1,14 @@
 # NgHmr - Step 3
 
 In this branch, "step3", we add a few more components and wire up Angular Router to help with navigation.
-We'll introduce a sort of "wizard", where the user has to proceed sequentially from one screen to the next.
-You have no doubt endured forms like this. The point of this step is to show that HMR can help us work on the
-2nd or 3rd screen of the "wizard" form without having to start all over again with every change. Except we're
-not handling state management very well. In this branch, we're let each component "own" or manage it's own
-chunk of application state. Unfortunately, this means that when a component is changed, and the old code is
-therefore swapped out with the new code, we loose that data.
+We'll introduce a "counter" component that lets the user click '+' and '-' buttons to increment or decrement a
+counter. The point of this step is to show that, while we have HMR set up to reload our modified code, we're losing
+our the portion of application state that is held and maintained by the reloaded module(s). Suppose we click the '+' button
+five times and then change the Counter component code. The Counter component will be reloaded, and our counter will be
+ reset to 0.
+This probably isn't the best way to handle state management. We don't want our state to be affected. We don't want to have
+to click the '+' button five (or however many) times just to get back to where we were, every time we make some code change.
+We'll start fixing this situation next, in step 4, by using Redux and a couple other associated libraries.
 
 ## Setup
 Run `npm install` or, if you use Yarn, just run `yarn`.
