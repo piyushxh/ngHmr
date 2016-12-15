@@ -11,8 +11,7 @@ import { Component } from '@angular/core';
       <h1>Counter</h1>
       <div>
         Here's a counter. 
-        <div>Value: {{value}}</div>
-        
+        <div>Value: {{value}}</div>          
         <div class="button-container">
           <button (click)="increment()">+</button>
           <button (click)="decrement()">-</button>
