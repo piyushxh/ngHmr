@@ -16,8 +16,8 @@ Follow these steps to see what I'm talking about:
 3. When Webpack is ready, open your browser and go to `http://localhost:8080`
 4. Click the Counter button at the top to navigate to the "counter" component's content.
 5. Click the '+' or '-' buttons to change the value of the counter to something other than 0. 
-6. In code editor, open `src/app/counter/counter.component.ts`. Edit the template. For example, change the text "Here's a counter, isn't it cool?" to "Here's a counter, isn't it kewl?". While keeping an eye on the page in your browser, save your changes. 
-7. Notice that the page was reloaded, and your counter's value was reset to 0. That sucks! But again, it is to be expected at this point. 
+6. In your code editor, open `src/app/counter/counter.component.ts`. Edit the template. For example, change the text "Here's a counter, isn't it cool?" to "Here's a counter, isn't it kewl?". While keeping an eye on the page in your browser, save your changes.
+7. Notice that the page was reloaded, and your counter's value was reset to 0. That kind of sucks, but it is expected at this point.
 
 
 ## Setup
