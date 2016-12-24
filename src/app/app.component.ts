@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works pretty super, and now you don\'t have to refresh to see changes!';
+  title = 'app works pretty super, and now you don\'t have to refresh to see changes! Isn\'t that neat?';
 }
