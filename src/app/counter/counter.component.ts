@@ -1,16 +1,21 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
-  selector: 'counter',
-  styles: [` 
-    .content { margin: 40px; }
-    .button-container { margin: 25px; }    
+    selector: 'counter',
+    styles: [` 
+    .content { 
+        margin: 40px; 
+    }
+    
+    .button-container { 
+        margin: 15px; 
+    }    
 `],
-  template: `
+    template: `
     <div class="content">
       <h1>Counter</h1>
       <div>
-        Here's a counter. 
+        Here's a counter, isn't it cool? 
         <div>Value: {{value}}</div>          
         <div class="button-container">
           <button (click)="increment()">+</button>
@@ -21,13 +26,13 @@ import { Component } from '@angular/core';
   `
 })
 export class CounterComponent {
-  value = 0
+    value = 0
 
-   increment() {
-     this.value++
-   }
+    increment() {
+        this.value++
+    }
 
-  decrement() {
-    this.value--
-  }
+    decrement() {
+        this.value--
+    }
 }
